@@ -17,4 +17,4 @@ This program will generate random passwords from 4 to 99 characters that include
 
 ## Launch
 
-Runs on
+Open the html document, passwordGeneratorHtml.html, in any modern web browser
