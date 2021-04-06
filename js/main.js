@@ -4,6 +4,7 @@ const lowercaseLetters = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f
 const uppercaseLetters = [];
 const symbols = ['!','@','#','$','%','^','&','*','(',')'];
 let password = [];
+let characters = 22;
 
 //fill uppercase letters from lowercase
 for(let i=0; i<lowercaseLetters.length; i++){
@@ -47,9 +48,16 @@ const generatePassword = (pLength) => {
    }
 };
 
+var elPassword = document.getElementById('password');
+elPassword.textContent = generatePassword(characters);
+
+var elCharacters = document.getElementById('characters');
+elCharacters.textContent = characters;
+
+
 //tests
-console.log(generatePassword(22));
-console.log(generatePassword(4));
-console.log(generatePassword(3));
-console.log(generatePassword(100));
-console.log(generatePassword(99));
+// console.log(generatePassword(22));
+// console.log(generatePassword(4));
+// console.log(generatePassword(3));
+// console.log(generatePassword(100));
+// console.log(generatePassword(99));
