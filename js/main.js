@@ -51,7 +51,7 @@ const generatePassword = (pLength) => {
 var elPassword = document.getElementById('password');
 elPassword.textContent = generatePassword(characters);
 
-var elCharacters = document.getElementById('characters');
+var elCharacters = document.getElementById('characters')
 elCharacters.textContent = characters;
 
 
