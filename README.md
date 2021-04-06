@@ -2,7 +2,12 @@
 
 ## Overview
 
-This program will generate random messages. Each time a user runs a program, they will get a random combiination of a number, then letter, then symbol.
+This program will generate random passwords up to 99 characters. With options for including/excluding:
+
++ Uppercase
++ LowerCase
++ Numbers
++ Symbols
 
 ## Technologies
 
