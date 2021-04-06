@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program will generate random passwords up to 99 characters. With options for including/excluding:
+This program will generate random passwords from 4 to 99 characters that include at least one of each of the following:
 
 + Uppercase
 + LowerCase
